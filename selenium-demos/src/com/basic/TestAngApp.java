@@ -22,7 +22,6 @@ public class TestAngApp {
 //		webdriver.quit();
 
 	}
-
 	private static void addProductToShoppingCart(WebDriver webdriver, String route, String productname, String quantity) {
 		webdriver.get(url + "/" + route);
 		webdriver.findElement(By.name("productName")).sendKeys(productname);
