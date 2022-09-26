@@ -20,7 +20,6 @@ public class TestAngApp {
 		addProductToShoppingCart(webdriver, "ecomm", "headphones", "2");
 
 //		webdriver.quit();
-
 	}
 	private static void addProductToShoppingCart(WebDriver webdriver, String route, String productname, String quantity) {
 		webdriver.get(url + "/" + route);
