@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class TestAngApp {
-
 	private static String url = "http://localhost:4200";
 
 	public static void main(String[] args) {
