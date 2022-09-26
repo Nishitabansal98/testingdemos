@@ -11,7 +11,7 @@ public class SelIntro {
 		
 		WebDriver webdriver = null;
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\tools\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("C:\\Users\\Nishita bansal\\Downloads\\chromedriver_win32 (1)", null);
 		webdriver = new ChromeDriver();
 		
 //		System.setProperty("webdriver.gecko.driver", "C:\\tools\\geckodriver-v0.31.0-win64\\geckodriver.exe");
