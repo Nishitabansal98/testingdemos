@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="testpkg.sample1"/>
+      <class name="testpkg.sample2"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
