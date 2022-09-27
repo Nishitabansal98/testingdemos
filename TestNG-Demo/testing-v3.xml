@@ -6,4 +6,14 @@
       <class name="loanapplications.HomeLoanApplicationTests"/>
     </classes>
   </test> <!-- Test -->
+    <test thread-count="5" name="PersonalLoanTests">
+    <classes>
+      <class name="loanapplications.PersonalLoanApplicationTests"/>
+    </classes>
+  </test> <!-- Test -->
+    <test thread-count="5" name="CarLoanTests">
+    <classes>
+      <class name="loanapplications.CarLoanApplicationTests"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
